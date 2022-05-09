@@ -165,8 +165,8 @@ GameObject:
   m_Component:
   - component: {fileID: 172294817}
   - component: {fileID: 172294816}
-  - component: {fileID: 172294815}
   - component: {fileID: 172294818}
+  - component: {fileID: 172294819}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -174,20 +174,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &172294815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172294814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4be299c0a0c52a947bf578c2fc0bcecb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  joystick: {fileID: 1358323295}
 --- !u!212 &172294816
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -272,6 +258,20 @@ CapsuleCollider2D:
   m_Offset: {x: -0.07148343, y: 0.017870724}
   m_Size: {x: 0.35641897, y: 0.6852428}
   m_Direction: 0
+--- !u!114 &172294819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172294814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e933ecfc1aa44309ffb4013465fd7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 3
+  MovementJoystick: {fileID: 1358323295}
 --- !u!1 &333996869
 GameObject:
   m_ObjectHideFlags: 0
